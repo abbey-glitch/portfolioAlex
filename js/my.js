@@ -21,7 +21,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 📝 Message:
 ${message}`;
 
-    const phoneNumber = "08139357520";
+    const phoneNumber = "08060862250";
 
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
