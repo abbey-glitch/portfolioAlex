@@ -21,7 +21,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 📝 Message:
 ${message}`;
 
-    const phoneNumber = "448060862250";
+    const phoneNumber = "2348060862250";
 
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
