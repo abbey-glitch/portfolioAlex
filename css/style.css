@@ -255,13 +255,17 @@
 .education-content .education-item {
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .03);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.03),
+                0 10px 20px rgba(0,0,0,0.06),
+                0 20px 40px rgba(0,0,0,0.04);
     transition: 0.5s;
     z-index: 1;
 }
 
 .education-content .education-item:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.03),
+                0 10px 20px rgba(0,0,0,0.06),
+                0 20px 40px rgba(0,0,0,0.04);
 }
 
 .education-content .education-item::after {
@@ -400,7 +404,7 @@
 }
 
 .portfolio-content .portfolio-item .portfolio-img .portfolio-img-inner {
-    visibility: hidden;
+    visibility: visible;
     transition: 0.5s;
 }
 
